@@ -1,1 +1,1 @@
-notes
+start project notes by Pshenicnikov
