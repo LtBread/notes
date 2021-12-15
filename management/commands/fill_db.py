@@ -7,7 +7,7 @@ from users.models import User
 # python manage.py dumpdata users.User > users/fixtures/users.json
 # python manage.py loaddata users/fixtures/users.json
 
-JSON_PATH = 'users/fixtures'
+JSON_PATH = 'fixtures'
 
 
 def load_from_json(file_name):
