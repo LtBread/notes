@@ -1,0 +1,25 @@
+[
+  {
+    "model": "todo.project",
+    "pk": 1,
+    "fields": {
+      "name": "Notes",
+      "repository_link": null,
+      "users": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "todo.project",
+    "pk": 2,
+    "fields": {
+      "name": "Nemesis",
+      "repository_link": null,
+      "users": [
+        4
+      ]
+    }
+  }
+]

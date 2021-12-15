@@ -1,18 +1,74 @@
 [
   {
-    "username": "Peter",
-    "first_name": "Пётр",
-    "last_name": "Петров",
-    "email": "pete@mail.ru",
-    "is_active": true,
-    "is_staff": false
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Peter",
+      "first_name": "Пётр",
+      "last_name": "Петров",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-12-10T13:31:48.796Z",
+      "email": "pete@mail.ru",
+      "groups": [],
+      "user_permissions": []
+    }
   },
   {
-    "username": "Ivan",
-    "first_name": "Иван",
-    "last_name": "Иванов",
-    "email": "ivan@mail.ru",
-    "is_active": true,
-    "is_staff": false
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Ivan",
+      "first_name": "Иван",
+      "last_name": "Иванов",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-12-10T13:31:48.807Z",
+      "email": "ivan@mail.ru",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$bjQxwEtQk2gOFQgDlqQhjc$zWxTG1K8a43RxrvWRKrxjmccNFayzdNEMiAUB++8qVs=",
+      "last_login": "2021-12-15T06:25:44.958Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-12-10T13:31:48.813Z",
+      "email": "admin@notes.local",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Sveta",
+      "first_name": "Светлана",
+      "last_name": "Светлова",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-12-13T04:33:20.625Z",
+      "email": "sveta@mail.ru",
+      "groups": [],
+      "user_permissions": []
+    }
   }
 ]
