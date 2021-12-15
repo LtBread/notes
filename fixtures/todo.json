@@ -1,0 +1,50 @@
+[
+  {
+    "model": "todo.todo",
+    "pk": 1,
+    "fields": {
+      "text": "create ToDo app",
+      "created_date": "2021-12-15",
+      "updated_date": "2021-12-15",
+      "project": 1,
+      "user": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "todo.todo",
+    "pk": 2,
+    "fields": {
+      "text": "Update Database",
+      "created_date": "2021-12-15",
+      "updated_date": "2021-12-15",
+      "project": 1,
+      "user": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "todo.todo",
+    "pk": 3,
+    "fields": {
+      "text": "Create AnnihilatorGun app",
+      "created_date": "2021-12-15",
+      "updated_date": "2021-12-15",
+      "project": 2,
+      "user": 4,
+      "is_active": true
+    }
+  },
+  {
+    "model": "todo.todo",
+    "pk": 4,
+    "fields": {
+      "text": "Deploy project",
+      "created_date": "2021-12-15",
+      "updated_date": "2021-12-15",
+      "project": 1,
+      "user": null,
+      "is_active": false
+    }
+  }
+]
