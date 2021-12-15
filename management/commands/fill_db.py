@@ -7,6 +7,8 @@ from users.models import User
 # python manage.py dumpdata users.User > users/fixtures/users.json
 # python manage.py loaddata users/fixtures/users.json
 
+# ПОКА ЧТО СЛОМАНО
+
 JSON_PATH = 'fixtures'
 
 

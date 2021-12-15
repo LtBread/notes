@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'users',
+    'todo',
 ]
 
 AUTH_USER_MODEL = 'users.User'
