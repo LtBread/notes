@@ -1,5 +1,5 @@
 from rest_framework.renderers import JSONRenderer, BrowsableAPIRenderer
-from rest_framework.viewsets import ModelViewSet, GenericViewSet
+from rest_framework.viewsets import GenericViewSet
 from rest_framework.mixins import ListModelMixin, RetrieveModelMixin, UpdateModelMixin
 
 from .serializers import UserModelSerializer
