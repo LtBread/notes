@@ -18,6 +18,7 @@ class ToDo(models.Model):
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
     user = models.ForeignKey(User, null=True, blank=True, on_delete=models.CASCADE)
     is_active = models.BooleanField(default=False)
+    is_completed = models.BooleanField(default=False)
 
     def __str__(self):
         return f'Project {self.project}: {self.text},user: {self.user}, is active: {self.is_active}'
