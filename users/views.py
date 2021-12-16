@@ -6,11 +6,6 @@ from .serializers import UserModelSerializer
 from .models import User
 
 
-class UserModelViewSet(ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = UserModelSerializer
-
-
 class UserViewSet(ListModelMixin,
                   RetrieveModelMixin,
                   UpdateModelMixin,
