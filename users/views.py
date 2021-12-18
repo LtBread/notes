@@ -1,8 +1,15 @@
-from rest_framework.viewsets import ModelViewSet
-from .serializers import UserSerializer
+from rest_framework.renderers import JSONRenderer, BrowsableAPIRenderer
+from rest_framework.viewsets import GenericViewSet
+from rest_framework.mixins import ListModelMixin, RetrieveModelMixin, UpdateModelMixin
+
+from .serializers import UserModelSerializer
 from .models import User
 
 
-class UserViewSet(ModelViewSet):
+class UserViewSet(ListModelMixin,
+                  RetrieveModelMixin,
+                  UpdateModelMixin,
+                  GenericViewSet):
+    renderer_classes = [JSONRenderer, BrowsableAPIRenderer]
     queryset = User.objects.all()
-    serializer_class = UserSerializer
+    serializer_class = UserModelSerializer
