@@ -19,14 +19,14 @@ class ProjectModelViewSet(ModelViewSet):
     renderer_classes = [JSONRenderer, BrowsableAPIRenderer]
     queryset = Project.objects.all()
     serializer_class = ProjectModelSerializer
-    pagination_class = ProjectPaginator
+    # pagination_class = ProjectPaginator
     filterset_fields = ['name']
 
 
 class ToDoModelViewSet(ModelViewSet):
     queryset = ToDo.objects.all()
     serializer_class = ToDoModelSerializer
-    pagination_class = ToDoPaginator
+    # pagination_class = ToDoPaginator
     filterset_fields = ['project']
 
     def perform_destroy(self, instance):
